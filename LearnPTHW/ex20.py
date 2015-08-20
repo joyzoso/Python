@@ -10,8 +10,8 @@ def rewind(f):
 
 
 def print_a_line(line_count, f):
-	print line_count, f.readline() #f.readline moves the read head to the right after the /n
-
+	print line_count, f.readline(), #f.readline moves the read head to the right after the /n
+	#and adding the comma at the end will eliminate the blank lines inbetween.
 current_file = open(input_file)
 
 print "First let's print the whole file: \n"
