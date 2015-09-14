@@ -37,5 +37,5 @@ def main():
     app = HelloApp(root)
     #calling the mainloop method on the top level window to enter into the TK event loop
     root.mainloop()
-# detects that the init method is being run as main and will execute the main func    
+# detects that the init method is being run as main and will execute the main function    
 if __name__ == "__main__": main()
