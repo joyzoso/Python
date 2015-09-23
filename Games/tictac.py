@@ -1,4 +1,5 @@
 #python tictactoe game
+version 2!!!
 import random
 import sys
 
